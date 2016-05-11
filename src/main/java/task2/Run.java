@@ -3,6 +3,7 @@ package task2;
 import java.sql.SQLException;
 
 public class Run {
+    private Run(){}
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         CookieDAO cookieDAO = new CookieDAO();
         CookieDTO cookieDTO = new CookieDTO("Updated111Txt", 5);
